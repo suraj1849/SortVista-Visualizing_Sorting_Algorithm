@@ -4,8 +4,8 @@
 
 ## Responsive visualizer built using React for popular algorithms
 
-<a href="https://sadanandpai.github.io/sorting-visualizer/dist/"><img src="cover.png" alt="cover" /></a>
-[See it in action](https://sadanandpai.github.io/sorting-visualizer/dist/)
+<a href="https://suraj1849.github.io/Sorting/dist/"><img src="cover.png" alt="cover" /></a>
+[See it in action](https://suraj1849.github.io/Sorting/dist/)
 
 ---
 
