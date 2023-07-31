@@ -2,12 +2,7 @@
     Sorting Visualizer
 </h1>
 
-## Responsive visualizer built using React for popular algorithms
 
-<a href="https://suraj1849.github.io/Sorting/dist/"><img src="cover.png" alt="cover" /></a>
-[See it in action](https://suraj1849.github.io/Sorting/dist/)
-
----
 
 ### This repo is an attempt to help in learning popular sorting algorithms by visualization
 
