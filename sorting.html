@@ -1,0 +1,195 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort2</title>
+    <style>
+        *{box-sizing: border-box;}
+body{
+    background-image: url(img.jpg);
+    background-position: 100%;
+    background-position: fixed;
+    background-repeat:repeat-x;
+    
+    
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+body header{
+    width: auto;
+    height: 200px;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top :30px;
+
+}
+.nav-area li{
+    display: inline-block;
+
+}
+.nav-area li a{
+    color:blue;
+    background-color: magenta;
+    border-radius: 10px;
+    -moz-text-decoration-style: solid;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.nav-area li a:hover{
+    text-decoration-color: white;
+    color:#255784;
+    background:#2196f3 ;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+    transition-delay: 0.5s;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.container .card{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(225, 225,225, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(225, 225,225, 0.5);
+    border-left: 1px solid rgba(225, 225,225, 0.5);
+    backdrop-filter: blur(5px);
+}
+.container .card .content{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+.container .card:hover .content{
+    transform: translateY(0px);
+    opacity: 1;
+
+}
+.container .card .content h2{
+    position: absolute;
+    top:-30px;
+    right:30px;
+    font-size: 8em;
+    color:rgba(225, 225,225, 0.05);
+    pointer-events: none;
+}
+.container .card .content h3{
+    font-size: 1.8em;
+    color: white;
+    z-index: 1;
+}
+.container .card .content p{
+    font-size: 1em;
+    color:white;
+    font-weight: 300;
+}
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: white;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0.5px 15px rgba(0, 0, 0, 0.5);
+}
+.container .card .content a:hover{
+    text-decoration-color: white;
+    color:white;
+    background:#2196f3 ;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+    transition-delay: 0.5s;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src= "SORTS.png" alt="">
+            </div>
+        <ul class="nav-area">
+            <li><a href="homepage2.o.html">Home</a></li>
+            <li><a href="sorting.html">Sorts</a></li>
+            <li><a href="#">Aboutus</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        </div>
+    </header> 
+    <div class="container">
+        <div class="card">
+            <div class="content" >
+                <h2>01</h2>
+                <h3>Insertion Sort</h3>
+                <p>Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part</p>
+                <a href="http://localhost:3000/">Visualize</a>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="content" >
+                <h2>02</h2>
+                <h3>Selection Sort</h3>
+                <p>Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part</p>
+                <a href="#">Visualize</a>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="content" >
+                <h2>03</h2>
+                <h3>Bubble Sort</h3>
+                <p>Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part</p>
+                <a href="#">Visualize</a>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="content" >
+                <h2>03</h2>
+                <h3>Bubble Sort</h3>
+                <p>Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part</p>
+                <a href="#">Visualize</a>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="content" >
+                <h2>03</h2>
+                <h3>Bubble Sort</h3>
+                <p>Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part</p>
+                <a href="#">Visualize</a>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

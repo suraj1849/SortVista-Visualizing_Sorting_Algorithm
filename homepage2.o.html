@@ -1,0 +1,337 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Vizualizer</title>
+    <style>
+        *{box-sizing: border-box;}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+body{
+    display: flex;
+    background-image: url("img.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+   
+
+}
+header{
+    width: auto;
+    height: 100px;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top :30px;
+
+}
+.nav-area li{
+    display: inline-block;
+
+}
+.nav-area li a{
+    color:blue;
+    background-color: magenta;
+    border-radius: 10px;
+    -moz-text-decoration-style: solid;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.nav-area li a:hover{
+    text-decoration-color: white;
+    color:#255784;
+    background:#2196f3 ;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+    transition-delay: 0.5s;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+.title{
+    position: absolute;
+    width:700px;
+    height:300px;
+    margin:20% 35%;
+    text-align: right;
+}
+.title h1{
+    text-align: right;
+    color:white;
+    text-transform: uppercase;
+    font-size: 110px;
+    position: relative;
+    color: transparent;
+    -webkit-text-stroke: 0.3vw #255784;
+    
+}
+.title h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:100% ;
+    color: #faa433;
+    -webkit-text-stroke: 0.3vw #255784;
+    border-right: 2px solid #faa433;
+    overflow:hidden ;
+    animation: animate 6s linear infinite;
+}
+@Keyframes animate
+{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+.title button{
+    position: relative;
+    display: inline-block;
+    padding: 15px,40px;
+    color:#2196f3;
+    background-color: orange;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.title button:hover{
+    color:#255784;
+    background:#2196f3 ;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+    transition-delay: 1s;
+
+}
+.title button a span{
+    position:absolute;
+    display:block;
+    text-decoration: none;
+
+}
+.title button a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+.title button a span:nth-child(1){
+    top:0;
+    left:-100%;
+    width:100%;
+    height:2px;
+    background: linear-gradient(90deg,transparent,#faa433)
+
+
+}
+.title button a:hover span:nth-child(1){
+    left:100%;
+    transition: 1s;
+
+}
+.title button a span:nth-child(3){
+    bottom:0;
+    right:-100%;
+    width:100%;
+    height:2px;
+    background: linear-gradient(270deg,transparent,#faa433)
+
+
+}
+.title button a:hover span:nth-child(3){
+    right:100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+}
+.title button a span:nth-child(2){
+    top:-100%;
+    right:0;
+    width:2px;
+    height:100%;
+    background: linear-gradient(180deg,transparent,#faa433)
+
+
+}
+.title button a:hover span:nth-child(1){
+    top:100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+
+}
+.title button a span:nth-child(2){
+    bottom:-100%;
+    left:0;
+    width:2px;
+    height:100%;
+    background: linear-gradient(360deg,transparent,#faa433)
+
+
+}
+.title button a:hover span:nth-child(1){
+    bottom:100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+
+}
+@media screen and (max-width:600px)
+{
+    .wrapper{
+        width: 600px;
+        height: 300px;
+        margin: auto;
+
+    }
+    
+    header{
+        width: 600px;
+        height: 400px;
+      
+    }
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .nav-area{
+        width: 100%;
+        height: 20px;
+        top: auto;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .nav-area li a{
+        color:blue;
+        background-color: magenta;
+        border-radius: 10px;
+        -moz-text-decoration-style: solid;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+    }
+    .nav-area li a:hover{
+        text-decoration-color: white;
+        color:#255784;
+        background:#2196f3 ;
+        box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+        transition-delay: 0.5s;
+    }
+    .title{
+        align-items: center;
+        align-content: center;
+        position: absolute;
+        padding-top: 250px;
+        padding-left: -80px;
+        width:300px;
+        height:140px;
+        margin:8.5% 12.5%;
+        text-align: right;
+    }
+    .title h1{
+        text-align: center;
+        color:white;
+        text-transform: uppercase;
+        width: 310px;
+        font-size: 50px;
+        position: relative;
+        color: transparent;
+        -webkit-text-stroke: 0.3vw #255784;
+        
+    }
+    .title h1::before{
+        content: attr(data-text);
+        position: absolute;
+        top:0;
+        left:0;
+        width:0;
+        height:100% ;
+        color: #faa433;
+        -webkit-text-stroke: 0.3vw #255784;
+        border-right: 2px solid #faa433;
+        overflow:hidden ;
+        animation: animate 6s linear infinite;
+    }
+    @Keyframes animate
+    {
+        0%,10%,100%{
+            width: 0;
+        }
+        70%,90%{
+            width: 100%;
+        }
+    }
+    .title button{
+        position:relative;
+        align-items: center;
+
+        display: inline-block;
+        padding: 100px,40px;
+        color:#2196f3;
+        background-color: orange;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 24px;
+        overflow: hidden;
+        transition: 0.2s;
+        border: none;
+        border-radius: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .title button:hover{
+        color:#255784;
+        background:#2196f3 ;
+        box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+        transition-delay: 1s;
+}
+}
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src= "SORTS.png" alt="">
+            </div>
+        <ul class="nav-area">
+            <li><a href="homepage2.o.html">Home</a></li>
+            <li><a href="sorting.html">Sorts</a></li>
+            <li><a href="#">Aboutus</a></li>
+            <li><a href="#">Contact us</a></li>
+            
+        </ul>
+    </header>
+        <div class="title">
+            <h1 data-text="Sorting Visualizer">Sorting Visualizer</h1>
+            <button>
+               <a href="sorting.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Sorts</a> 
+            </button>
+
+        </div>
+        </div>
+    
+</body>
+</html>
