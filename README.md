@@ -1,4 +1,3 @@
-Great! Here's a customized README for your project "SortVista-Visualizing_Sorting_Algorithm" on GitHub:
 
 # SortVista-Visualizing_Sorting_Algorithm
 
