@@ -1,5 +1,6 @@
 {
   "name": "front-end-made-easy",
+  "homepage":"https://suraj1849.github.io/SortingAlgo_Visualizer/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
