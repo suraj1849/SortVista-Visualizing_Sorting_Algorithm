@@ -57,11 +57,10 @@ Contributions are welcome! Feel free to submit issues, feature requests, or pull
 Explore the world of sorting algorithms with SortVista! 🚀
 
 #Implementation Screenshots
-![Screenshot (132)](https://github.com/suraj1849/SortVista-Visualizing_Sorting_Algorithm/assets/113511921/5a7a3023-da02-4c91-83f4-c3bc8f8672e1)
-![Screenshot (131)](https://github.com/suraj1849/SortVista-Visualizing_Sorting_Algorithm/assets/113511921/a87b1654-5528-4e0e-a46d-e2a5f610ee39)
-![Screenshot (134)](https://github.com/suraj1849/SortVista-Visualizing_Sorting_Algorithm/assets/113511921/7583dbc0-af09-4752-b6ec-c5f38ac7f8a6)
-![Screenshot (133)](https://github.com/suraj1849/SortVista-Visualizing_Sorting_Algorithm/assets/113511921/6b6a8cc1-3d68-46b8-84b7-c966b69f904a)
-
+![Screenshot (137)](https://github.com/suraj1849/SortVista-Visualizing_Sorting_Algorithm/assets/113511921/16281701-876b-4893-b0e1-410d80606d2c)
+![Screenshot (136)](https://github.com/suraj1849/SortVista-Visualizing_Sorting_Algorithm/assets/113511921/c75c9611-22bc-462d-be7b-7394a5c114ff)
+![Screenshot (135)](https://github.com/suraj1849/SortVista-Visualizing_Sorting_Algorithm/assets/113511921/73ec46ca-e082-4684-990b-950e85616a6a)
+![Screenshot (138)](https://github.com/suraj1849/SortVista-Visualizing_Sorting_Algorithm/assets/113511921/6f364ba5-e91b-4213-806d-2444d5501ac9)
 
 
 
