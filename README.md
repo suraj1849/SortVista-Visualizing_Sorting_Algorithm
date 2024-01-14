@@ -1,7 +1,7 @@
 
 # SortVista-Visualizing_Sorting_Algorithm
 
-Welcome to SortVista-Visualizing_Sorting_Algorithm! This web application is designed to provide an interactive visualization of various sorting algorithms. Watch the algorithms in action, explore real-time statistics, and gain insights into the sorting process.
+
 
 ## Features
 
