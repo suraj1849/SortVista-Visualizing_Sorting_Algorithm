@@ -18,7 +18,7 @@ Welcome to SortVista-Visualizing_Sorting_Algorithm! This web application is desi
 
 - **Styled Components:** Utilizing Styled Components for a modular and maintainable styling approach.
 
-- **Material-UI:** Employing Material-UI for consistent and responsive UI components.
+- 
 
 - **React Icons:** Integrating React Icons for scalable and visually appealing icons.
 
