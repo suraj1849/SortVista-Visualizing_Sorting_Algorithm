@@ -57,7 +57,11 @@ Contributions are welcome! Feel free to submit issues, feature requests, or pull
 
 Explore the world of sorting algorithms with SortVista! 🚀
 
-#Implementation Screenshots
+
+
+# Implementation Screenshots
+
+
 ![Screenshot (137)](https://github.com/suraj1849/SortVista-Visualizing_Sorting_Algorithm/assets/113511921/16281701-876b-4893-b0e1-410d80606d2c)
 ![Screenshot (136)](https://github.com/suraj1849/SortVista-Visualizing_Sorting_Algorithm/assets/113511921/c75c9611-22bc-462d-be7b-7394a5c114ff)
 ![Screenshot (135)](https://github.com/suraj1849/SortVista-Visualizing_Sorting_Algorithm/assets/113511921/73ec46ca-e082-4684-990b-950e85616a6a)
