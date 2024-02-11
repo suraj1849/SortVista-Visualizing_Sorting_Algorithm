@@ -22,7 +22,7 @@ Welcome to SortVista-Visualizing_Sorting_Algorithm! This web application is desi
 
 - **React Icons:** Integrating React Icons for scalable and visually appealing icons.
 
-- **JSX:**Syntax extension for js that allows to write html code in js .
+- **JSX:** Syntax extension for js that allows to write html code in js .
 
 - **React-Use:** Utilizing React-Use library for additional hooks and utilities.
 
