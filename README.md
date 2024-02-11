@@ -16,13 +16,13 @@ Welcome to SortVista-Visualizing_Sorting_Algorithm! This web application is desi
 
 - **React JS:** Built using React JS, a powerful JavaScript library for building user interfaces.
 
-- **Styled Components:** Utilizing Styled Components for a modular and maintainable styling approach.
+- **Styled Components:** Utilizing Styled Components for a modular and maintainable styling approach allows to write css in js.
 
-- **Material-UI:** Employing Material-UI for consistent and responsive UI components.
+- **React Hooks:** mijor use of useStae and useEffect hooks for rendering of UI.
 
 - **React Icons:** Integrating React Icons for scalable and visually appealing icons.
 
-- **Zustand:** Leveraging Zustand for efficient state management in React applications.
+- **JSX:**Syntax extension for js that allows to write html code in js .
 
 - **React-Use:** Utilizing React-Use library for additional hooks and utilities.
 
