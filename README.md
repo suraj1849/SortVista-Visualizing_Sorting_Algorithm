@@ -26,7 +26,7 @@ Welcome to SortVista-Visualizing_Sorting_Algorithm! This web application is desi
 
 - **React-Use:** Utilizing React-Use library for additional hooks and utilities.
 
-## Getting Started
+## Getting Started with our project
 
 Follow these steps to get SortVista-Visualizing_Sorting_Algorithm up and running on your local machine:
 
